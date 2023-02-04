@@ -1,0 +1,57 @@
+footer,.mid{
+    background-color: black;
+    color:ghostwhite;
+    text-align:center;
+    padding:20px;
+    font-family: Algerian;
+    size:20%;
+}
+
+.bookmarks{
+    background-color:skyblue; 
+    color:royalblue;
+    padding:10px 20px;
+    margin-right:10px;
+    border:none;
+    border-radius:10px;
+    font-size:30px;
+    cursor:crosshair;
+    text-decoration:none;
+}
+
+.bookmarks:hover{
+    background-color:springgreen;
+    color:fuchsia;
+}
+
+.navigation{
+    padding:20px;
+    text-align:center;
+}
+
+
+.column{
+    float:left;
+}
+
+.row{
+    width:100%;
+    margin:5% 10%;
+    text-align:center;
+}
+
+.row::after{
+    clear:both;
+    display:table;
+    content:'';
+}
+
+.text{
+    width:60%;
+}
+
+.picture{
+    width:20%;
+}
+
+
